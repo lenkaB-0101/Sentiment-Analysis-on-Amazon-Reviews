@@ -1,0 +1,9 @@
+This project performs sentiment analysis on customer reviews from Amazon. The goal is to classify reviews as positive, neutral, or negative using machine learning techniques, 
+specifically leveraging a pre-trained transformer model (like BERT) fine-tuned on a custom dataset.
+
+Overview
+
+    Data Collection: Reviews were scraped from Amazon using web scraping techniques.
+    Data Processing: Texts were preprocessed to be ready for sentiment analysis (removal of special characters, stop words, etc.).
+    Model: The sentiment classification was performed using a pre-trained BERT model fine-tuned on the collected Amazon review dataset.
+    Web App: A user-friendly interface was created using Streamlit to interact with the model.
